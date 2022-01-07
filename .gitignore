@@ -1,0 +1,3 @@
+/node_modules
+app/config/files.config.js
+app/config/donsider-aws-cf-priv-key.pem

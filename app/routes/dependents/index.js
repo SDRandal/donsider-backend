@@ -1,0 +1,21 @@
+const task = require("./task.plan.route")
+const step = require("./step.task.plan.route")
+const note = require("./note.plan.route")
+const attachment = require("./attachment.plan.route")
+const donsideration = require("./donsideration.plan.route")
+const option = require("./option.donsideration.plan.route")
+const tag = require("./tag.plan.route")
+const pro = require("./pro.option.donsideration.plan.route")
+const con = require("./con.option.donsideration.plan.route")
+
+module.exports = (app)=>{
+    task(app)
+    step(app)
+    note(app)
+    attachment(app)
+    donsideration(app)
+    option(app)
+    tag(app)
+    pro(app)
+    con(app)
+}
